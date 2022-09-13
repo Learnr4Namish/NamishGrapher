@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+input {
+   padding: 15px;
+   margin-top: 10px;
+   width: 12em;
+   font-size: 20.5px;
+}
+input:focus {
+  padding: 15px;
+  margin-top: 10px;
+  width: 12em;
+  font-size: 20.5px;
+  outline: none;
+  border: black 2px solid;
+}
+textarea {
+  padding: 15px;
+  margin-top: 10px;
+  width: 12em;
+  font-size: 20.5px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+textarea:focus {
+ padding: 15px;
+ margin-top: 10px;
+ width: 12em;
+ font-size: 20.5px;
+ outline: none;
+ border: black 2px solid;
+ font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+button {
+   padding: 15px;
+   width: 12em;
+   font-size: 20.5px;
+   outline: none;
+   font-family: Arial, Helvetica, sans-serif;
+   border: none;
+   background-color: black;
+   color: white;
+   transition: 0.45s;
+}
+button:active {
+  padding: 15px;
+  width: 12em;
+  font-size: 20.5px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  transition: 0.45s;
+}
